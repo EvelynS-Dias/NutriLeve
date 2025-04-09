@@ -1,4 +1,4 @@
-export const receitas = [
+export const Receitas = [
     [
         {
           "id": 1,

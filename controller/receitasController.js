@@ -1,18 +1,22 @@
-import {receitas} from "/routes/receitas.route"
+import {Receitas} from "../model/receitas.js"
 
 class ReceitasController {
 
-    getReceitasSemLactose(res,req) {
-    const semLactose = receitas.filter(receita => receita.recomendado_para.includes("lactose"));
-    res.send(semLactose);
+  static getReceitasSemLactose(req,res) {
+     const semLactose = Receitas.filter(receita => receita.recomendado_para.some(item => item.includes("semLactose")))  
+          res.send(semLactose);
     }
-    getReceitasVegano(res,req) {
-        const vegano = receitas.filter(receita => receita.recomendado_para.includes("vegano"));
+   static getReceitasVegano(req,res) {
+        const vegano = Receitas.filter(receita => receita.recomendado_para.some(item => item.includes("vegano")));
         res.send(vegano);
         }
-    getReceitasGlutên(res,req) {
-        const semGluten = receitas.filter(receita => receita.recomendado_para.includes("glúten"));
-        res.send(semGluten);
+   static getReceitasDiabetes(req,res) {
+        const diabetes = Receitas.filter(receita => receita.recomendado_para.some(item => item.includes("diabetes"))) 
+        res.send(diabetes);
+            }
+   static getReceitasSemGluten(req,res) {
+        const semGluten = Receitas.filter(receita => receita.recomendado_para.some(item => item.includes("glúten")))       
+         res.send(semGluten);
             }
 }
 

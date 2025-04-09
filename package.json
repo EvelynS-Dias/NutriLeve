@@ -1,0 +1,24 @@
+{
+  "name": "miniprojeto",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvelynS-Dias/miniProjeto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvelynS-Dias/miniProjeto/issues"
+  },
+  "homepage": "https://github.com/EvelynS-Dias/miniProjeto#readme",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
