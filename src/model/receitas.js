@@ -1,9 +1,13 @@
-export const Receitas = [
+ const Receitas = [
     [
         {
           "id": 1,
           "nome": "Bolo de Maçã com Banana e Canela",
           "rendimento": "1 bolo médio",
+          "para_intolerancia_lactose": true,
+          "para_diabéticos": true,
+          "sem_gluten": false,
+          "para_veganos": false,
           "ingredientes": [
             "2 maçãs descascadas, sem sementes e picadas",
             "1 banana-nanica descascada e cortada em rodelas",
@@ -35,6 +39,10 @@ export const Receitas = [
           "id": 2,
           "nome": "Maminha ao Molho de Ervas (com creme vegetal)",
           "rendimento": "10 porções",
+          "para_intolerancia_lactose": true,
+          "para_diabéticos": true,
+          "sem_gluten": true,
+          "para_veganos": false,
           "ingredientes": [
             "1 maminha em peça",
             "1 colher de chá de sal",
@@ -66,6 +74,10 @@ export const Receitas = [
           "id": 3,
           "nome": "Musse de Maracujá com Iogurte",
           "rendimento": "4 porções",
+          "para_intolerancia_lactose": false,
+          "para_diabéticos": true,
+          "sem_gluten": true,
+          "para_veganos": false,
           "ingredientes": [
             "Polpa de 1 maracujá",
             "1 xícara de chá de iogurte natural desnatado",
@@ -91,6 +103,10 @@ export const Receitas = [
             "id": 4,
             "nome": "Bolinho Integral de Banana e Passas sem Açúcar",
             "rendimento": "10 a 12 mini bolinhos",
+            "para_intolerancia_lactose": true,
+            "para_diabéticos": true,
+            "sem_gluten": false,
+            "para_veganos": false,
             "ingredientes": [
               "1 banana-nanica madura, amassada",
               "1 ovo",
@@ -116,6 +132,10 @@ export const Receitas = [
             "id": 5,
             "nome": "Bolo Integral de Banana e Blueberry (sem Açúcar e sem Lactose)",
             "rendimento": "1 bolo médio (forma 21x21 cm)",
+            "para_intolerancia_lactose": true,
+            "para_diabéticos": true,
+            "sem_gluten": false,
+            "para_veganos": false,
             "ingredientes": [
               "4 bananas nanicas maduras amassadas",
               "2 ovos",
@@ -145,6 +165,10 @@ export const Receitas = [
             "id": 6,
             "nome": "Panquequinhas de Banana e Coco (Sem Açúcar e Sem Glúten)",
             "rendimento": "8 a 10 panquequinhas (dependendo do tamanho)",
+            "para_intolerancia_lactose": true,
+            "para_diabéticos": true,
+            "sem_gluten": true,
+            "para_veganos": false,
             "ingredientes": [
               "1/2 xícara (chá) de leite líquido MOLICO® Zero Lactose",
               "1/2 colher (chá) de suco de limão",
@@ -177,6 +201,10 @@ export const Receitas = [
             "id": 7,
             "nome": "Crepioca de Banana com Melado",
             "rendimento": "1 porção",
+            "para_intolerancia_lactose": true,
+            "para_diabéticos": true,
+            "sem_gluten": true,
+            "para_veganos": false,
             "ingredientes": [
               "2 colheres (sopa) de goma de tapioca",
               "2 colheres (sopa) de purê de banana",
@@ -205,6 +233,10 @@ export const Receitas = [
             "id": 8,
             "nome": "Pão de Queijo Vegano",
             "rendimento": "30 a 45 unidades",
+            "para_intolerancia_lactose": true,
+            "para_diabéticos": true,
+            "sem_gluten": true,
+            "para_veganos": true,
             "ingredientes": [
               "1 xícara de água",
               "1/3 xícara de óleo ou azeite",
@@ -231,7 +263,7 @@ export const Receitas = [
             "tempo_preparo": 60,
             "recomendada_para": ["intolerância à lactose", "alimentação vegana", "sem glúten"]
           }
-
-           
       ]
     ]
+
+    export default Receitas;
