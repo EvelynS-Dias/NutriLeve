@@ -1,4 +1,4 @@
-# 🥗 NutriDelicia! - Projeto criado visando ajudar a desenvolver uma alimentação mais saudável!
+# 🥗 NutriDelicia! - Projeto que visa ajudar a desenvolver uma alimentação mais saudável!
 Dentro da internet, existe um milhão de receitas diferentes que o usuário pode escolher e fazer para o seu
 dia a dia. Mas, um problema é: **Encontrar receitas que sejam gostosas e, ao mesmo tempo, que atendam as
 necessidades específicas de cada um.**  **Exemplo:** alguém que têm problemas com intolerância a Lactose ou alguém com problemas 
