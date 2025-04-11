@@ -1,4 +1,5 @@
 import Receitas from "../model/receitas.js"
+import ClassReceitas from "../model/ClassReceitas.js"
 
 
 
@@ -24,6 +25,24 @@ static getAllReceitas(req,res) {
         const semGluten = Receitas[0].filter(receita => receita.sem_gluten === true)
          res.send(semGluten);
             }
+
+static async postNewReceita(req,res) {
+const {nome,
+rendimento,
+para_intolerancia_lactose,
+para_diabéticos,
+sem_gluten,
+para_veganos,
+ingredientes,
+modo_preparo,
+categoria,
+nivel,
+tempo_preparo,
+recomendado_para} = req.body;
+
+Receitas.push(req.body);
 }
 
+
+}
 // export default new ReceitasController();

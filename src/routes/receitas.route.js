@@ -2,23 +2,32 @@ import express from "express"
 // import ReceitasController from "../controller/receitasController.js"
 
 import  {ReceitasController} from "../controller/receitasController.js"
+import Receitas from "../model/receitas.js";
 
-const router = express.Router();
+const receitasRouter = express.Router();
+const siteRouter = express.Router();
 
-router.get("/", (req,res) => {
-    res.send("Bem vindo ao site!");
+siteRouter.get("/Inicio", (req,res)  =>{
+res.send("Bem-vindo ao site!")
+});
+siteRouter.get("/aboutUs", (req,res) => {
+    res.send("Sobre nós");
+});
+siteRouter.get("/Contact", (req,res) => {
+    res.send("Contato");
 });
 
 
 
 console.log(ReceitasController);
-router.get("/vegano", ReceitasController.getReceitasVegano);
-router.get("/semLactose", ReceitasController.getReceitasSemLactose);
-router.get("/semGluten", ReceitasController.getReceitasSemGluten);
-router.get("/diabetes", ReceitasController.getReceitasDiabetes);
-router.get("/todasReceitas", ReceitasController.getAllReceitas);
+receitasRouter.get("/vegano", ReceitasController.getReceitasVegano);
+receitasRouter.get("/semLactose", ReceitasController.getReceitasSemLactose);
+receitasRouter.get("/semGluten", ReceitasController.getReceitasSemGluten);
+receitasRouter.get("/diabetes", ReceitasController.getReceitasDiabetes);
+receitasRouter.get("/", ReceitasController.getAllReceitas);
+receitasRouter.post("/novaReceita", ReceitasController.postNewReceita);
 
 
 
 
-export default router; 
+export { siteRouter, receitasRouter};
