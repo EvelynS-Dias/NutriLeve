@@ -28,6 +28,8 @@ receitasRouter.get("/", ReceitasController.getAllReceitas);
 receitasRouter.post("/novaReceita", ReceitasController.postNewReceita);
 
 
+receitasRouter.put("/receita/:idReceita", ReceitasController.getReceitasSemGluten); 
+
 
 
 export { siteRouter, receitasRouter};

@@ -1,0 +1,25 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Receita {
+  id                  String   @id @default(auto()) @map("_id") @db.ObjectId
+  nome                String
+  rendimento          String
+  paraIntoleranciaLactose Boolean
+  paraDiabeticos     Boolean
+  semGluten          Boolean
+  paraVeganos        Boolean
+  ingredientes        String[]
+  modo_preparo        String
+  categoria           String[]
+  nivel               String
+  tempo_preparo       Int
+  recomendado_para    String[]
+}

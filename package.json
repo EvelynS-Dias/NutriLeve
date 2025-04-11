@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devNode": " node --watch src/server.js" 
+    "devNode": " node --watch src/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,10 @@
   "homepage": "https://github.com/EvelynS-Dias/miniProjeto#readme",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^6.6.0",
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "prisma": "^6.6.0"
   }
 }

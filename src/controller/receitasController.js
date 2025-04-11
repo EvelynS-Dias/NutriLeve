@@ -25,24 +25,28 @@ static getAllReceitas(req,res) {
         const semGluten = Receitas[0].filter(receita => receita.sem_gluten === true)
          res.send(semGluten);
             }
+            
+static async postNewReceita() {
+const {idReceita } = req.params;
+await prisma.Receita.create({
+     data: {
+       // campos do seu modelo User
+       nome: req.body.nome,
+       rendimento: req.body.rendimento,
+       paraIntoleranciaLactose: req.body.para_intoleranciaLactose,
+       paraDiabeticos: req.body.paraDiabeticos,
+       semGluten: req.body.semGluten,
+       paraVeganos: req.body.paraVeganos,
+       ingredientes: req.body.ingredientes,
+       modoPreparo: req.body.modoPreparo,
+       categoria: req.body.categoria,
+       nivel: req.body.nivel,
+       tempoPreparo: req.body.tempoPreparo,
+       recomendadoPara: req.body.recomendadoPara
+     }
+   });
 
-static async postNewReceita(req,res) {
-const {nome,
-rendimento,
-para_intolerancia_lactose,
-para_diabéticos,
-sem_gluten,
-para_veganos,
-ingredientes,
-modo_preparo,
-categoria,
-nivel,
-tempo_preparo,
-recomendado_para} = req.body;
-
-Receitas.push(req.body);
 }
-
 
 }
 // export default new ReceitasController();
