@@ -4,10 +4,10 @@
           "id": 1,
           "nome": "Bolo de Maçã com Banana e Canela",
           "rendimento": "1 bolo médio",
-          "para_intolerancia_lactose": true,
-          "para_diabéticos": true,
-          "sem_gluten": false,
-          "para_veganos": false,
+          "paraIntoleranciaLactose": true,
+          "paraDiabeticos": true,
+          "semGluten": false,
+          "paraVeganos": false,
           "ingredientes": [
             "2 maçãs descascadas, sem sementes e picadas",
             "1 banana-nanica descascada e cortada em rodelas",
@@ -21,7 +21,7 @@
             "Óleo de coco para untar",
             "Farinha de aveia para enfarinhar"
           ],
-          "modo_preparo": [
+          "modoPreparo": [
             "Bata no liquidificador as maçãs, a banana e os ovos até obter uma mistura homogênea.",
             "Transfira para um recipiente e adicione o farelo de aveia, a farinha, a canela e o fermento.",
             "Mexa bem até incorporar tudo.",
@@ -32,17 +32,17 @@
           ],
           "categoria": ["bolo saudável", "sem açúcar refinado", "rico em fibras"],
           "nivel": "fácil",
-          "tempo_preparo": 45,
-          "recomendada_para": ["diabetes", "lanches saudáveis", "café da manhã"]
+          "tempoPreparo": 45,
+          "recomendadaPara": ["diabetes", "lanches saudáveis", "café da manhã"]
         },
         {
           "id": 2,
           "nome": "Maminha ao Molho de Ervas (com creme vegetal)",
           "rendimento": "10 porções",
-          "para_intolerancia_lactose": true,
-          "para_diabéticos": true,
-          "sem_gluten": true,
-          "para_veganos": false,
+          "paraIntoleranciaLactose": true,
+          "paraDiabeticos": true,
+          "semGluten": true,
+          "paraVeganos": false,
           "ingredientes": [
             "1 maminha em peça",
             "1 colher de chá de sal",
@@ -56,7 +56,7 @@
             "200 g de creme de leite vegetal",
             "Água"
           ],
-          "modo_preparo": [
+          "modoPreparo": [
             "Tempere a maminha com sal e alho.",
             "Doure os dois lados da carne em azeite numa panela de pressão.",
             "Cubra com água, tampe e cozinhe por 20 minutos após pegar pressão.",
@@ -67,17 +67,17 @@
           ],
           "categoria": ["proteína magra", "prato principal"],
           "nivel": "médio",
-          "tempo_preparo": 45,
-          "recomendada_para": ["dieta equilibrada", "diabetes", "restrição à lactose"]
+          "tempoPreparo": 45,
+          "recomendadaPara": ["dieta equilibrada", "diabetes", "restrição à lactose"]
         },
         {
           "id": 3,
           "nome": "Musse de Maracujá com Iogurte",
           "rendimento": "4 porções",
-          "para_intolerancia_lactose": false,
-          "para_diabéticos": true,
-          "sem_gluten": true,
-          "para_veganos": false,
+          "paraIntoleranciaLactose": false,
+          "paraDiabeticos": true,
+          "semGluten": true,
+          "paraVeganos": false,
           "ingredientes": [
             "Polpa de 1 maracujá",
             "1 xícara de chá de iogurte natural desnatado",
@@ -87,7 +87,7 @@
             "1/4 de xícara de chá de água quente",
             "Sementes de maracujá para decorar"
           ],
-          "modo_preparo": [
+          "modoPreparo": [
             "Bata no liquidificador a polpa de maracujá, o iogurte, o leite de amêndoas e o xilitol.",
             "Dissolva a gelatina na água quente e adicione à mistura no liquidificador.",
             "Bata por 1 minuto até ficar bem homogêneo.",
@@ -96,17 +96,17 @@
           ],
           "categoria": ["sobremesa", "sem açúcar", "baixo carboidrato"],
           "nivel": "fácil",
-          "tempo_preparo": 15,
-          "recomendada_para": ["diabetes", "sobremesa leve", "intolerância à lactose"]
+          "tempoPreparo": 15,
+          "recomendadaPara": ["diabetes", "sobremesa leve", "intolerância à lactose"]
         },
         {
             "id": 4,
             "nome": "Bolinho Integral de Banana e Passas sem Açúcar",
             "rendimento": "10 a 12 mini bolinhos",
-            "para_intolerancia_lactose": true,
-            "para_diabéticos": true,
-            "sem_gluten": false,
-            "para_veganos": false,
+            "paraIntoleranciaLactose": true,
+            "paraDiabeticos": true,
+            "semGluten": false,
+            "paraVeganos": false,
             "ingredientes": [
               "1 banana-nanica madura, amassada",
               "1 ovo",
@@ -117,7 +117,7 @@
               "1 colher (chá) de fermento em pó",
               "½ xícara (chá) de uvas-passas pretas"
             ],
-            "modo_preparo": [
+            "modoPreparo": [
               "Em um recipiente, misture todos os ingredientes até formar uma massa homogênea.",
               "Despeje a massa em forminhas de mini muffin (aprox. 3 cm de diâmetro).",
               "Leve ao forno médio (180 °C), preaquecido, por cerca de 25 minutos ou até dourar levemente.",
@@ -125,17 +125,17 @@
             ],
             "categoria": ["lanche saudável", "sem açúcar", "integral"],
             "nivel": "fácil",
-            "tempo_preparo": 30,
-            "recomendada_para": ["diabetes", "lanches infantis", "dieta sem açúcar refinado"]
+            "tempoPreparo": 30,
+            "recomendadaPara": ["diabetes", "lanches infantis", "dieta sem açúcar refinado"]
           },
           {
             "id": 5,
             "nome": "Bolo Integral de Banana e Blueberry (sem Açúcar e sem Lactose)",
             "rendimento": "1 bolo médio (forma 21x21 cm)",
-            "para_intolerancia_lactose": true,
-            "para_diabéticos": true,
-            "sem_gluten": false,
-            "para_veganos": false,
+            "paraIntoleranciaLactose": true,
+            "paraDiabeticos": true,
+            "semGluten": false,
+            "paraVeganos": false,
             "ingredientes": [
               "4 bananas nanicas maduras amassadas",
               "2 ovos",
@@ -149,7 +149,7 @@
               "1 colher (sopa) de fermento em pó",
               "½ colher (chá) de bicarbonato de sódio"
             ],
-            "modo_preparo": [
+            "modoPreparo": [
               "Em um recipiente, misture as bananas amassadas, os ovos, a aveia, a farinha e a canela.",
               "Acrescente o suco de maçã, o óleo, as blueberries e as amêndoas. Misture bem.",
               "Adicione o fermento e o bicarbonato e incorpore à massa.",
@@ -158,17 +158,17 @@
             ],
             "categoria": ["bolo saudável", "sem açúcar", "sem lactose", "integral"],
             "nivel": "médio",
-            "tempo_preparo": 50,
-            "recomendada_para": ["diabetes", "intolerância à lactose", "dieta sem açúcar refinado"]
+            "tempoPreparo": 50,
+            "recomendadaPara": ["diabetes", "intolerância à lactose", "dieta sem açúcar refinado"]
           },
           {
             "id": 6,
             "nome": "Panquequinhas de Banana e Coco (Sem Açúcar e Sem Glúten)",
             "rendimento": "8 a 10 panquequinhas (dependendo do tamanho)",
-            "para_intolerancia_lactose": true,
-            "para_diabéticos": true,
-            "sem_gluten": true,
-            "para_veganos": false,
+            "paraIntoleranciaLactose": true,
+            "paraDiabeticos": true,
+            "semGluten": true,
+            "paraVeganos": false,
             "ingredientes": [
               "1/2 xícara (chá) de leite líquido MOLICO® Zero Lactose",
               "1/2 colher (chá) de suco de limão",
@@ -182,7 +182,7 @@
               "Frutas variadas fatiadas (para montagem)",
               "Azeite para untar"
             ],
-            "modo_preparo": [
+            "modoPreparo": [
               "Misture o leite e o suco de limão. Reserve.",
               "Amasse as bananas em um recipiente com um garfo.",
               "Adicione às bananas a essência de baunilha e o leite reservado. Misture bem.",
@@ -194,17 +194,17 @@
             ],
             "categoria": ["lanche saudável", "sem açúcar", "sem glúten", "sem lactose"],
             "nivel": "fácil",
-            "tempo_preparo": 35,
-            "recomendada_para": ["diabetes", "intolerância à lactose", "intolerância ao glúten", "lanches infantis"]
+            "tempoPreparo": 35,
+            "recomendadaPara": ["diabetes", "intolerância à lactose", "intolerância ao glúten", "lanches infantis"]
           },
           {
             "id": 7,
             "nome": "Crepioca de Banana com Melado",
             "rendimento": "1 porção",
-            "para_intolerancia_lactose": true,
-            "para_diabéticos": true,
-            "sem_gluten": true,
-            "para_veganos": false,
+            "paraIntoleranciaLactose": true,
+            "paraDiabeticos": true,
+            "semGluten": true,
+            "paraVeganos": false,
             "ingredientes": [
               "2 colheres (sopa) de goma de tapioca",
               "2 colheres (sopa) de purê de banana",
@@ -215,7 +215,7 @@
               "Sal a gosto",
               "Leite vegetal (quantidade suficiente para misturar à goma)"
             ],
-            "modo_preparo": [
+            "modoPreparo": [
               "Em uma tigela, misture todos os ingredientes do recheio (banana em rodelas, melado, canela, água e sal) e reserve.",
               "Para a massa, misture a goma de tapioca com o leite vegetal.",
               "Despeje a mistura sobre uma frigideira aquecida.",
@@ -225,18 +225,18 @@
             ],
             "categoria": ["café da manhã", "sem lactose", "vegetariano"],
             "nivel": "fácil",
-            "tempo_preparo": 10,
-            "recomendada_para": ["intolerância à lactose", "almoço leve", "lanche saudável"]
+            "tempoPreparo": 10,
+            "recomendadaPara": ["intolerância à lactose", "almoço leve", "lanche saudável"]
           },
           
           {
             "id": 8,
             "nome": "Pão de Queijo Vegano",
             "rendimento": "30 a 45 unidades",
-            "para_intolerancia_lactose": true,
-            "para_diabéticos": true,
-            "sem_gluten": true,
-            "para_veganos": true,
+            "paraIntoleranciaLactose": true,
+            "paraDiabeticos": true,
+            "semGluten": true,
+            "paraVeganos": true,
             "ingredientes": [
               "1 xícara de água",
               "1/3 xícara de óleo ou azeite",
@@ -246,7 +246,7 @@
               "1 e 1/2 xícara de polvilho azedo",
               "1 colher (sopa) de sal"
             ],
-            "modo_preparo": [
+            "modoPreparo": [
               "No liquidificador, bata o tofu com a água e o sal.",
               "Em uma tigela grande, misture todos os ingredientes até obter uma massa lisinha.",
               "Se a massa estiver seca, adicione um pouco mais de água aos poucos.",
@@ -260,8 +260,8 @@
             ],
             "categoria": ["café da manhã", "sem lactose", "vegano", "sem glúten"],
             "nivel": "fácil",
-            "tempo_preparo": 60,
-            "recomendada_para": ["intolerância à lactose", "alimentação vegana", "sem glúten"]
+            "tempoPreparo": 60,
+            "recomendadaPara": ["intolerância à lactose", "alimentação vegana", "sem glúten"]
           }
       ]
     ]
