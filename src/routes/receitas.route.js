@@ -14,7 +14,7 @@ router.get("/semGluten", ReceitasController.getReceitasSemGluten);
 router.get("/diabetes", ReceitasController.getReceitasDiabetes);
 router.get("/", ReceitasController.getAllReceitas);
 
-
+router.post("/", ReceitasController.addReceita);
 
 
 export default router; 

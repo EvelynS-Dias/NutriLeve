@@ -4,6 +4,8 @@ import router from "./routes/receitas.route.js";
 const app = express();
 const PORT = 3000;
 
+
+
 app.use(express.json());
 
 

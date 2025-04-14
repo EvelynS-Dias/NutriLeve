@@ -3,7 +3,6 @@
         {
           "id": 1,
           "nome": "Bolo de Maçã com Banana e Canela",
-          "rendimento": "1 bolo médio",
           "paraIntoleranciaLactose": true,
           "paraDiabeticos": true,
           "semGluten": false,
@@ -30,15 +29,10 @@
             "Asse em forno preaquecido a 180ºC até dourar.",
             "Retire do forno, espere esfriar, desenforme e decore com canela em pó."
           ],
-          "categoria": ["bolo saudável", "sem açúcar refinado", "rico em fibras"],
-          "nivel": "fácil",
-          "tempoPreparo": 45,
-          "recomendadaPara": ["diabetes", "lanches saudáveis", "café da manhã"]
         },
         {
           "id": 2,
           "nome": "Maminha ao Molho de Ervas (com creme vegetal)",
-          "rendimento": "10 porções",
           "paraIntoleranciaLactose": true,
           "paraDiabeticos": true,
           "semGluten": true,
@@ -65,15 +59,10 @@
             "Transfira para uma panela, junte o creme de leite vegetal e misture bem.",
             "Aqueça até engrossar levemente e regue a carne com o molho antes de servir."
           ],
-          "categoria": ["proteína magra", "prato principal"],
-          "nivel": "médio",
-          "tempoPreparo": 45,
-          "recomendadaPara": ["dieta equilibrada", "diabetes", "restrição à lactose"]
         },
         {
           "id": 3,
           "nome": "Musse de Maracujá com Iogurte",
-          "rendimento": "4 porções",
           "paraIntoleranciaLactose": false,
           "paraDiabeticos": true,
           "semGluten": true,
@@ -94,15 +83,10 @@
             "Distribua em taças, decore com as sementes de maracujá e leve à geladeira por 2 horas.",
             "Sirva gelado."
           ],
-          "categoria": ["sobremesa", "sem açúcar", "baixo carboidrato"],
-          "nivel": "fácil",
-          "tempoPreparo": 15,
-          "recomendadaPara": ["diabetes", "sobremesa leve", "intolerância à lactose"]
         },
         {
             "id": 4,
             "nome": "Bolinho Integral de Banana e Passas sem Açúcar",
-            "rendimento": "10 a 12 mini bolinhos",
             "paraIntoleranciaLactose": true,
             "paraDiabeticos": true,
             "semGluten": false,
@@ -123,10 +107,6 @@
               "Leve ao forno médio (180 °C), preaquecido, por cerca de 25 minutos ou até dourar levemente.",
               "Retire do forno, espere esfriar e sirva."
             ],
-            "categoria": ["lanche saudável", "sem açúcar", "integral"],
-            "nivel": "fácil",
-            "tempoPreparo": 30,
-            "recomendadaPara": ["diabetes", "lanches infantis", "dieta sem açúcar refinado"]
           },
           {
             "id": 5,
@@ -156,10 +136,6 @@
               "Despeje a massa em uma forma quadrada (21 x 21 cm), untada com óleo e polvilhada com aveia.",
               "Leve ao forno médio (180°C), preaquecido, por cerca de 40 minutos ou até o palito sair limpo ao espetar o centro do bolo."
             ],
-            "categoria": ["bolo saudável", "sem açúcar", "sem lactose", "integral"],
-            "nivel": "médio",
-            "tempoPreparo": 50,
-            "recomendadaPara": ["diabetes", "intolerância à lactose", "dieta sem açúcar refinado"]
           },
           {
             "id": 6,
@@ -192,10 +168,6 @@
               "Corte as panquequinhas com um cortador redondo de 3 cm.",
               "Monte empilhando panquequinhas intercaladas com frutas e espete com palitos para servir."
             ],
-            "categoria": ["lanche saudável", "sem açúcar", "sem glúten", "sem lactose"],
-            "nivel": "fácil",
-            "tempoPreparo": 35,
-            "recomendadaPara": ["diabetes", "intolerância à lactose", "intolerância ao glúten", "lanches infantis"]
           },
           {
             "id": 7,
@@ -223,10 +195,6 @@
               "Espalhe o recheio sobre metade da massa e dobre ao meio.",
               "Sirva em seguida."
             ],
-            "categoria": ["café da manhã", "sem lactose", "vegetariano"],
-            "nivel": "fácil",
-            "tempoPreparo": 10,
-            "recomendadaPara": ["intolerância à lactose", "almoço leve", "lanche saudável"]
           },
           
           {
@@ -258,10 +226,6 @@
               "Para assar, unte uma forma com óleo e farinha (ou use forma antiaderente ou manta de silicone).",
               "Leve ao forno preaquecido a 220°C por 25 a 35 minutos ou até dourar."
             ],
-            "categoria": ["café da manhã", "sem lactose", "vegano", "sem glúten"],
-            "nivel": "fácil",
-            "tempoPreparo": 60,
-            "recomendadaPara": ["intolerância à lactose", "alimentação vegana", "sem glúten"]
           }
       ]
     ]
