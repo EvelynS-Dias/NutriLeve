@@ -1,7 +1,9 @@
+import { v4 as uuidv4 } from 'uuid';
+
+ 
  const Receitas = [
-    [
         {
-          "id": 1,
+          "id": uuidv4(),
           "nome": "Bolo de Maçã com Banana e Canela",
           "paraIntoleranciaLactose": true,
           "paraDiabeticos": true,
@@ -31,7 +33,7 @@
           ],
         },
         {
-          "id": 2,
+          "id": uuidv4(),
           "nome": "Maminha ao Molho de Ervas (com creme vegetal)",
           "paraIntoleranciaLactose": true,
           "paraDiabeticos": true,
@@ -61,7 +63,7 @@
           ],
         },
         {
-          "id": 3,
+          "id": uuidv4(),
           "nome": "Musse de Maracujá com Iogurte",
           "paraIntoleranciaLactose": false,
           "paraDiabeticos": true,
@@ -85,7 +87,7 @@
           ],
         },
         {
-            "id": 4,
+            "id": uuidv4(),
             "nome": "Bolinho Integral de Banana e Passas sem Açúcar",
             "paraIntoleranciaLactose": true,
             "paraDiabeticos": true,
@@ -109,7 +111,7 @@
             ],
           },
           {
-            "id": 5,
+            "id": uuidv4(),
             "nome": "Bolo Integral de Banana e Blueberry (sem Açúcar e sem Lactose)",
             "rendimento": "1 bolo médio (forma 21x21 cm)",
             "paraIntoleranciaLactose": true,
@@ -138,7 +140,7 @@
             ],
           },
           {
-            "id": 6,
+            "id": uuidv4(),
             "nome": "Panquequinhas de Banana e Coco (Sem Açúcar e Sem Glúten)",
             "rendimento": "8 a 10 panquequinhas (dependendo do tamanho)",
             "paraIntoleranciaLactose": true,
@@ -170,7 +172,7 @@
             ],
           },
           {
-            "id": 7,
+            "id": uuidv4(),
             "nome": "Crepioca de Banana com Melado",
             "rendimento": "1 porção",
             "paraIntoleranciaLactose": true,
@@ -198,7 +200,7 @@
           },
           
           {
-            "id": 8,
+            "id": uuidv4(),
             "nome": "Pão de Queijo Vegano",
             "rendimento": "30 a 45 unidades",
             "paraIntoleranciaLactose": true,
@@ -228,6 +230,5 @@
             ],
           }
       ]
-    ]
 
     export default Receitas;

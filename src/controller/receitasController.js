@@ -2,28 +2,29 @@ import Receitas from "../model/receitas.js"
 import { v4 as uuidv4 } from 'uuid';
 
  const databaseReceitas = [];
+ databaseReceitas.push(Receitas);
 
 
 export class ReceitasController {
 
 static getAllReceitas(req,res) {
-          res.json(Receitas);
+          res.json(databaseReceitas);
      }
 
   static getReceitasSemLactose(req,res) {
-     const semLactose =  Receitas[0].filter(receita => receita.paraIntoleranciaLactose === true);
+     const semLactose =  databaseReceitas[0].filter(receita => receita.paraIntoleranciaLactose === true);
      res.json(semLactose);
     }
    static getReceitasVegano(req,res) {
-        const vegano =  Receitas[0].filter(receita=>  receita.paraVeganos === true);
+        const vegano =  databaseReceitas[0].filter(receita=>  receita.paraVeganos === true);
         res.json(vegano);
         }
    static getReceitasDiabetes(req,res) {
-        const diabetes = Receitas[0].filter(receita => receita.paraDiabeticos === true)
+        const diabetes = databaseReceitas[0].filter(receita => receita.paraDiabeticos === true)
         res.json(diabetes);
             }
    static getReceitasSemGluten(req,res) {
-        const semGluten = Receitas[0].filter(receita => receita.semGluten === true)
+        const semGluten = databaseReceitas[0].filter(receita => receita.semGluten === true)
          res.json(semGluten);
             }
 
