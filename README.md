@@ -10,7 +10,7 @@ nem sempre encontram receitas adequadas de forma rápida e fácil.
 
 # Exemplos de rotas: 
 - GET /receitas -> Esta rota vai mostrar todas as receitas que tem dentro do banco de dados. 
-- GET /semLactose -> Esta rota vai mostrar todas as receitas que tem dentro do banco de dados que sejam sem lactose 
+- GET /receitas/semLactose -> Esta rota vai mostrar todas as receitas que tem dentro do banco de dados que sejam sem lactose 
 - GET /receitas/semGluten -> Rota para receitas sem gluten
 - GET /receitas/diabetes -> Rota para receitas para quem têm diabetes 
 - GET /receitas/vegano -> Esta rota vai mostrar todas as receitas veganas disponíveis
