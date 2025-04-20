@@ -9,6 +9,7 @@ Neste projeto para a PDA, criei uma API que direcione ao usuário receitas saud�
 nem sempre encontram receitas adequadas de forma rápida e fácil.
 
 # Como rodar o código:
+Basta rodar no terminal "npm run dev" ou node run src/server.js! 
 
 # Exemplos de rotas: 
 - GET /receitas -> Esta rota vai mostrar todas as receitas que tem dentro do banco de dados. 
