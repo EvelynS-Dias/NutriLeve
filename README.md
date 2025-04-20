@@ -14,5 +14,29 @@ nem sempre encontram receitas adequadas de forma rápida e fácil.
 - GET /receitas/semGluten -> Rota para receitas sem gluten
 - GET /receitas/diabetes -> Rota para receitas para quem têm diabetes 
 - GET /receitas/vegano -> Esta rota vai mostrar todas as receitas veganas disponíveis
+- POST /receitas -> Aqui você vai poder criar uma nova receita. Caso ela estiver de acordo com alguma das categorias como Sem Lactose, por exemplo, era irá entrar dentro do filtro.
 
+  EXEMPLO DE COMO O MODELO DEVE SER FEITO: 
+
+```json 
+   {
+"nome": "Bolinhos de Chuva",
+"paraIntoleranciaLactose": false,
+"paraDiabeticos": false,
+"semGluten": false, 
+"paraVeganos": true,
+"ingredientes": [ "1/2 xícara de farinha de trigo",
+"1/4 de xícara de açúcar",
+"chocolate granulado a gosto",
+"canela a gosto",
+"1 pitada de sal",
+"1/2 colher de fermento químico para bolo",
+"aproximadamente 1/4 de xícara de água óleo para fritar"], 
+"modoPreparo": ["Misture todos os ingredientes, a água por último aos poucos, porque a massa não pode ficar líquida, nem muito pesada.",
+"Mexa delicadamente, até começar a levantar algumas bolhas.",
+"Coloque 2 dedos de óleo numa panelinha e ligue o fogo",
+"Assim que estiver quente, vá despejando a massa, às colheradas.",
+"Retire rapidamente do óleo com um garfo e deixe escorrendo em um prato com papel toalha",
+"Depois de frito, polvilhe açúcar e canela por cima."]
+} 
 
