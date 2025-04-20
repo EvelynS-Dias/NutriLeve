@@ -1,4 +1,4 @@
-# 🥗 NutriDelicia! - Projeto que visa ajudar a desenvolver uma alimentação mais saudável!
+# 🥗 NutriLeve! - Projeto que visa ajudar a desenvolver uma alimentação mais saudável!
 Dentro da internet, existe um milhão de receitas diferentes que o usuário pode escolher e fazer para o seu
 dia a dia. Mas, um problema é: **Encontrar receitas que sejam gostosas e, ao mesmo tempo, que atendam as
 necessidades específicas de cada um.**  **Exemplo:** alguém que têm problemas com intolerância a Lactose ou alguém com problemas 
@@ -6,7 +6,9 @@ de diabetes.
 
 Neste projeto para a PDA, criei uma API que direcione ao usuário receitas saudáveis de acordo com a sua necessidade: 
 **Intolerância a Lactose, Diabetes, restrições ao gluten** ou que simplesmente **buscam opções mais saudáveis** ou **veganas**
-nem sempre encontram receitas adequadas de forma rápida e fácil. 
+nem sempre encontram receitas adequadas de forma rápida e fácil.
+
+# Como rodar o código:
 
 # Exemplos de rotas: 
 - GET /receitas -> Esta rota vai mostrar todas as receitas que tem dentro do banco de dados. 
