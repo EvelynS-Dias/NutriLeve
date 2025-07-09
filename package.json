@@ -19,6 +19,7 @@
   "homepage": "https://github.com/EvelynS-Dias/miniProjeto#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "nodemon": "^3.1.9",
     "uuid": "^11.1.0"
   }
